@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\curl">
+      <UniqueIdentifier>{36fff58a-0e79-4ec0-bc3f-7f220185caa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\http">
+      <UniqueIdentifier>{634ba9b6-19ed-46f6-a6a2-415513f6885f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\exception">
+      <UniqueIdentifier>{e6625dd3-813c-4a06-8412-7c42734c6fbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\util">
+      <UniqueIdentifier>{506c5c08-4266-469f-9a90-7af6d24b6c76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="app_entry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="server.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="threadpool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="http_parse.cpp">
+      <Filter>头文件\http</Filter>
+    </ClCompile>
+    <ClCompile Include="tools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="file_utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="http_handler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="curl\curl.h">
+      <Filter>头文件\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\curlver.h">
+      <Filter>头文件\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\easy.h">
+      <Filter>头文件\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\header.h">
+      <Filter>头文件\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\mprintf.h">
+      <Filter>头文件\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\multi.h">
+      <Filter>头文件\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\options.h">
+      <Filter>头文件\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\stdcheaders.h">
+      <Filter>头文件\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\system.h">
+      <Filter>头文件\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\typecheck-gcc.h">
+      <Filter>头文件\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\urlapi.h">
+      <Filter>头文件\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\websockets.h">
+      <Filter>头文件\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="server.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="threadpool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="init_config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="http_parse.h">
+      <Filter>头文件\http</Filter>
+    </ClInclude>
+    <ClInclude Include="http_request.h">
+      <Filter>头文件\http</Filter>
+    </ClInclude>
+    <ClInclude Include="http_response.h">
+      <Filter>头文件\http</Filter>
+    </ClInclude>
+    <ClInclude Include="http_proto.h">
+      <Filter>头文件\http</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="string_utils.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="file_utils.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="http_handler.h">
+      <Filter>头文件\http</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
